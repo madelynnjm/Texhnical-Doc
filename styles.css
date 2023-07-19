@@ -1,0 +1,50 @@
+main{
+  position:absolute;
+  left:110px;
+  top:0px;
+}
+
+section header{
+  font-size:22px;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+nav{
+  display:block;
+  background-color:gray;
+  width:100px;
+  height:100%;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+#navbar a, #navbar header{
+  display:block;
+  padding:5px;
+  color:white;
+  text-decoration:none;
+  font-style:normal;
+}
+
+#navbar a{
+  border-top: solid 1px;
+}
+
+@media (max-width: 450px){
+nav{
+  display:block;
+  background-color:gray;
+  width:100%;
+  height:auto;
+  position:absolute;
+  left:0;
+  top:0;
+}
+main{
+  position:absolute;
+  left:20px;
+  top:175px;
+}
+}
